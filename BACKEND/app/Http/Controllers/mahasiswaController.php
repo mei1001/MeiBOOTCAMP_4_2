@@ -25,7 +25,7 @@ class mahasiswaController extends Controller
             return response()->json(['message'=>'Failed to Sign Up, exception:' + $e], 500);
         }
     }
-    function StudentUpdate(Request $req){
+    function mahasiswaUpdate(Request $req){
         DB::beginTransaction();
         try {
         $NIM= $req->input('NIM');

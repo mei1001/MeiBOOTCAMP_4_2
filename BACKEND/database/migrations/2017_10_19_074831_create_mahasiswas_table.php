@@ -18,6 +18,7 @@ class CreateMahasiswasTable extends Migration
             $table->timestamps();
             $table->string('nama');
             $table->string('alamat');
+            $table->string('phonenumb');
         });
     }
 
