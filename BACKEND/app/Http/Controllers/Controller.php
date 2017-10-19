@@ -10,4 +10,17 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+  
+    function Addmahasiswa(){
+      
+      return view('page.employeeform');
+    }
+
+    function Updatemahasiswa(){
+
+      return view('page.employeelist');
+    }
+}
+
+
 }
